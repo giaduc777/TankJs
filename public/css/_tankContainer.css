@@ -8,7 +8,7 @@
     position: relative;
     width: 5vh;
     height: 3vh;
-    background-color: white;
+    background-color: rgb(185, 19, 19);
 }
 
 .tankContainer .tank {
