@@ -11,4 +11,5 @@
     width: 3vh;
     height: 3vh;
     display: flex;
+    flex-shrink: 3;
 }
