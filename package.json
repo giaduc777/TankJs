@@ -11,7 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "css-loader": "^4.2.1",
     "nodemon": "^2.0.4",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
