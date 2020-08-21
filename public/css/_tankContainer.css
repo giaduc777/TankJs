@@ -1,6 +1,6 @@
 .tankContainer {
     display: flex;
-    background-color: white;
+    background-color: rgb(236, 14, 14);
 }
 
 .tankContainer .box {
