@@ -9,7 +9,7 @@
 @import "./_cannonContainer.css";
 @import "./_test.css";
 
-body, html {
+body {
     width: 100%;
     height: 100vh;
     
