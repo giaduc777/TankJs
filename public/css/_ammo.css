@@ -1,0 +1,13 @@
+.ammo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     background-color: white;
+}
+
+.ball{
+    opacity: 0;
+    width: 3vh;
+    height: 3vh;
+    display: flex;
+}

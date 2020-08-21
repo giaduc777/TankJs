@@ -1,0 +1,15 @@
+.explosion{
+    position: relative;
+}
+
+.explosion .img {
+    position: absolute;
+    z-index: -20;
+    width: 15vh;
+    height: 12vh;
+    transform: translateX(-7vh);
+}
+
+.explosion #box10 {
+     display: none; 
+}

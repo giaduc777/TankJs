@@ -1,0 +1,14 @@
+.control {
+    background-color: rgb(5, 44, 42);
+    padding: 4vh;
+}
+
+.control .currentMode {
+    display: flex;
+    justify-content: center;
+}
+
+.control .try-reset {
+    display: flex;
+    justify-content: space-around;
+}

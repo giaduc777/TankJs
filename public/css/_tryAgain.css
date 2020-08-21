@@ -1,0 +1,15 @@
+.tryAgain{
+    position: relative;
+}
+
+.tryAgain .img {
+    position: absolute;
+    z-index: -15;
+    width: 15vh;
+    height: 12vh;
+    transform: translateX(-7vh);
+}
+
+.tryAgain #box11 {
+     display: none;
+}

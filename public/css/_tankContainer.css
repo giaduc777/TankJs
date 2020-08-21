@@ -1,0 +1,23 @@
+.tankContainer {
+    display: flex;
+    background-color: white;
+}
+
+.tankContainer .box {
+    flex-grow: 2;
+    position: relative;
+    width: 5vh;
+    height: 3vh;
+    background-color: white;
+}
+
+.tankContainer .tank {
+    flex-grow: 2;
+    position: absolute;
+    z-index: -10;
+    width: 5vh;
+    height: 3vh
+}
+
+
+

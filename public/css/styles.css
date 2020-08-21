@@ -1,0 +1,16 @@
+@import "./_title.css";
+@import "./_control.css";
+@import "./_screen.css";
+@import "./_background.css";
+@import "./_tankContainer.css";
+@import "./_explosion.css";
+@import "./_tryAgain.css";
+@import "./_ammo.css";
+@import "./_cannonContainer.css";
+@import "./_test.css";
+
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}

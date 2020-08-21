@@ -1,0 +1,10 @@
+.title {
+    background-color: aquamarine;
+}
+
+.title .buttonContainer {
+     display: flex;
+     justify-content: space-between;
+    /*background-color: rgb(221, 59, 59);*/
+      
+}

@@ -1,0 +1,21 @@
+.cannonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.cannonContainer .cannon {
+    width: 5vh;
+    height: 5vh;
+}
+
+.cannonContainer button {
+    font-size: 2vh;
+}
+
+@media (min-width: 567px){
+    .cannonContainer .cannon {
+        width: 5vw;
+        height: 5vw;
+    }
+}
