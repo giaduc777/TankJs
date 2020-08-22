@@ -1,4 +1,4 @@
-import hello from '../js/hello';
-hello();
 
+
+import '../scss/main.scss';
 import '../css/styles.css';

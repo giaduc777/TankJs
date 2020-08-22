@@ -1,0 +1,33 @@
+.row-2 {
+    
+    margin-top: 5vh;
+}
+/*
+.box {
+    position: relative;
+    width: 5vh;
+    height: 3vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.tank{
+    position: absolute;
+    z-index: -10;
+    width: 5vh;
+    height: 3vh;
+}
+*/
+
+/*@media (min-width: 567px) {
+    .box {
+        width: 5.5vw;
+        height: 3.5vw;
+    }
+
+    .tank {
+        width: 5.5vw;
+        height: 3.5vw;
+    }
+}
+*/
+
