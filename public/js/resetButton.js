@@ -5,9 +5,7 @@ function resetButton(){
     document.querySelector("#reset-game").addEventListener('click', function(){
 
         document.querySelector("#try-again").disabled=true;
-        document.querySelector(".trigger").disabled = true;
-
-        if(GlobalVariable.gameMode !== "none"){
+        document.querySelector('#reset-game').disabled = true;
             
             GlobalVariable.gameMode = "none";
 
@@ -31,7 +29,7 @@ function resetButton(){
             document.querySelector(".trigger").disabled = false;
             document.querySelector("#linear-tank").disabled = false;
             document.querySelector("#random-tank").disabled = false;
-        }
+        
     })
 
 }

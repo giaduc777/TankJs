@@ -5,9 +5,10 @@ import linearTank from './linearTank';
 function tryAgainButtton(){
     
     document.querySelector("#try-again").addEventListener('click', function(){
+
         document.querySelector("#try-again").disabled=true;
         document.querySelector('#reset-game').disabled = true;
-        //Reset does not work if gameMode is not select.
+        document.querySelector(".trigger").disabled = false;
 
         //Clear Tank & Bullet setInterval() ID
         clearInterval(GlobalVariable.intervalId);

@@ -9,6 +9,7 @@ function linear(){
         document.querySelector("#linear-tank").disabled=true;
         document.querySelector('#reset-game').disabled = true;
         document.querySelector('#try-again').disabled = true;
+        document.querySelector(".trigger").disabled = false;
 
         GlobalVariable.gameMode = "linear";
     

@@ -6,6 +6,7 @@ import fireButton from './fireButton';
 
 document.querySelector('#reset-game').disabled = true;
 document.querySelector('#try-again').disabled = true;
+document.querySelector(".trigger").disabled = true;
 
 linear();
 random();
