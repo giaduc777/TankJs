@@ -1,22 +1,24 @@
 .tankContainer {
     display: flex;
     background-color: rgb(236, 14, 14);
+
+
+
+
+    width: 100%;
 }
 
 .tankContainer .box {
-    flex-grow: 2;
     position: relative;
-    width: 5vh;
-    height: 3vh;
-    background-color: rgb(185, 19, 19);
+    width: 100%;
+    height: auto;
 }
 
 .tankContainer .tank {
-    flex-grow: 2;
     position: absolute;
     z-index: -10;
-    width: 5vh;
-    height: 3vh
+    width: 100%;
+    height: auto;
 }
 
 

@@ -3,13 +3,18 @@
     flex-direction: column;
     justify-content: center;
      background-color: white;
-     flex-shrink: 3;
+    
+
+
+     align-items: center;
 }
 
 .ball{
     opacity: 0;
-    width: 3vh;
-    height: 3vh;
+    width: 2.5vh;
+    height: 2.5vh;
     display: flex;
-    flex-shrink: 3;
+    
+    
 }
+

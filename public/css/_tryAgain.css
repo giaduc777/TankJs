@@ -7,7 +7,7 @@
     z-index: -15;
     width: 15vh;
     height: 12vh;
-    transform: translateX(-7vh);
+    transform: translate(-7vh, 7vh);
 }
 
 .tryAgain #box11 {
