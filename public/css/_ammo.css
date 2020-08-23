@@ -3,9 +3,6 @@
     flex-direction: column;
     justify-content: center;
      background-color: white;
-    
-
-
      align-items: center;
 }
 
@@ -13,8 +10,6 @@
     opacity: 0;
     width: 2.5vh;
     height: 2.5vh;
-    display: flex;
-    
-    
+    display: flex; 
 }
 
