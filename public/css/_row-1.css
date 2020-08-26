@@ -1,0 +1,6 @@
+
+@media (min-width: 600px) and (min-height: 300px){
+    .row-1{
+        transform: translateY(5vh);
+    }
+}

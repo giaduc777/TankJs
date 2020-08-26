@@ -1,10 +1,6 @@
 .tankContainer {
     display: flex;
     background-color: rgb(236, 14, 14);
-
-
-
-
     width: 100%;
 }
 
@@ -20,6 +16,4 @@
     width: 100%;
     height: auto;
 }
-
-
 

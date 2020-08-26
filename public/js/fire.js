@@ -16,7 +16,7 @@ function fire(){
             clearInterval(GlobalVariable.fireId);
             document.querySelector("#try-again").disabled=false;
 
-            //////////Tank is destroy////////////
+            //////////Tank is destroy///////////
             if(GlobalVariable.currentTank === 5){
                 document.querySelector("#bullet" + GlobalVariable.prevFireCount).firstElementChild.style.opacity=0;
                 document.querySelector('#box' + GlobalVariable.prevTank).firstElementChild.style.zIndex=-10

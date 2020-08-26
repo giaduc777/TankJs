@@ -10,7 +10,6 @@ function random(){
         document.querySelector('#reset-game').disabled = true;
         document.querySelector(".trigger").disabled = false;
 
-    
         GlobalVariable.gameMode = "random";
     
         document.querySelector("#current_mode").innerHTML = "Random";

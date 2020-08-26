@@ -13,3 +13,9 @@
     display: flex; 
 }
 
+@media (min-width: 1000px){
+    .ball {
+        width: 3.5vh;
+        height: 3.5vh;
+    }
+}

@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>A JavaScript project</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./dist/styles.css">
   </head>
   <body>
-    <div class="container-fluid background">
-        <div class="row">
+    <div class="container-fluid container-xl background">
+        <div class="row row-1">
             <div class="col-12 text-center title ">
                  <h4>Choose your games:</h4>
                  <div class="buttonContainer col-9 col-sm-5 col-lg-4 col-xl-3 ml-auto mr-auto">
@@ -36,8 +36,8 @@
                   <div class="box" id="box8"><img  class="tank" src="./assets/tank.png"></img></div>
                   <div class="box" id="box9"><img  class="tank" src="./assets/tank.png"></img></div>
                 </div>
-      
-                <div class="test">
+                
+                <div class="destroy">
                   <div class="explosion" id="box10"><img  class="img" src="./assets/explosion.png"></img></div>
                 <div class="tryAgain" id="box11"><img  class="img" src="./assets/tryAgain.jpg"></img></div>
       
@@ -61,7 +61,7 @@
                   <div  id="bullet1"><img class="ball" src="./assets/ball.jpg"></img></div>
                 </div>
         
-                  <div class="cannonContainer">
+                  <div class="cannonContainer mb-2">
                     <img class="cannon" src="./assets/cannon.png"></img>
                     <button type="button" class="trigger btn btn-danger btn-sm">FIRE</button>
                   </div>
@@ -69,13 +69,13 @@
             <!------------------------Screen------------------------------->
 
             <!------------------------Control------------------------------->
-            <div class="col-10 col-sm-5 order-sm-2 ml-auto mr-auto control">
+            <div class="col-10 col-sm-5 col-lg-3 order-sm-2 ml-auto mr-auto mb-auto p-4 control">
               <div class="row justify-content-center">
                   <div class="currentMode col-12 mb-2 mt-sm-5 mb-sm-4">
                     <button type="button" class="btn btn-info">Current Mode: <span id="current_mode"></span></button>
                   </div>
 
-                  <div class="try-reset col-10 col-lg-8 col-xl-6">
+                  <div class="try-reset col-md-10 col-lg-12 col-xl-10">
                     <button id="try-again" type="button" class="btn btn-warning btn-sm">Try Again</button>
                     <button id="reset-game" type="button" class=" btn btn-warning btn-sm">Reset Game</button>
                   </div>
